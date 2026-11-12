@@ -1,0 +1,7 @@
+[server]
+# 跳过首次运行的邮箱询问，同时保留自动打开浏览器
+showEmailPrompt = false
+
+[browser]
+# 关闭使用情况统计
+gatherUsageStats = false

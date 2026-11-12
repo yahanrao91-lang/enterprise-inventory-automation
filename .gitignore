@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# 虚拟环境
+venv/
+.venv*/
+env/
+
+# 日志
+logs/
+*.log
+
+# 生成的报告（每次运行都会重新生成）
+data/output/*.xlsx
+
+# 个人原始业务数据（不要提交；可公开的示例数据在 data/sample/）
+data/input/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.idea/
+.vscode/
+
+# 个人学习记录
+/项目进度.md
+
+# 所有运行生成的报告
+data/output/
+
+# 本地数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 测试覆盖率文件
+.coverage
+htmlcov/
